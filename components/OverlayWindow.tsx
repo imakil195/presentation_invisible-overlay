@@ -58,7 +58,7 @@ export const OverlayWindow: React.FC<OverlayWindowProps> = ({ settings, children
   const containerStyle: React.CSSProperties = isElectron ? {
     width: '100%',
     height: '100%',
-    opacity: settings.opacity,
+    // Opacity handled by native window in main process to avoid double-application
   } : {
     left: position.x,
     top: position.y,

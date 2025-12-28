@@ -31,10 +31,8 @@ function createWindow() {
     y: 50,
     icon: path.join(process.env.VITE_PUBLIC, 'icon.png'), // scalable-placeholder
     frame: false,
-    // transparent: false,
-    // backgroundColor: '#FFFFFF',
-    transparent: true,
-    backgroundColor: '#00000000',
+    transparent: false,
+    backgroundColor: '#000000',
     hasShadow: false,
     alwaysOnTop: true,
     skipTaskbar: true, // Don't show in taskbar for stealth
