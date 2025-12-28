@@ -1,0 +1,5 @@
+{
+  "name": "Invisible Presenter Overlay",
+  "description": "A private, capture-resistant overlay system for presenters. Provides stealth cues, checklists, and timers visible only to the user.",
+  "requestFramePermissions": []
+}
