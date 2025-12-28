@@ -52,6 +52,20 @@ npm run build
 ```
 *Output will happen in `release/` directory (e.g., `.dmg` for macOS, `.exe` for Windows).*
 
+### Startup Issues (Unsigned Application)
+Since this app is not signed with an Apple Developer ID (which costs $99/year), macOS Gatekeeper may block it.
+
+**Solution:**
+1.  **Right-click** (Control-click) the `Invisible Overlay.app`.
+2.  Select **Open**.
+3.  Click **Open** in the dialog box.
+*(You only need to do this once)*.
+
+**Windows Users (SmartScreen):**
+If you see "Windows protected your PC":
+1.  Click **More info**.
+2.  Click **Run anyway**.
+
 ## 🏗 System Architecture
 
 ### 1. Invisibility Mechanism
