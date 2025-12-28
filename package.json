@@ -51,6 +51,13 @@
         "nsis"
       ]
     },
+    "nsis": {
+      "guid": "5e5j-invisible-overlay-v1",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": true
+    },
     "files": [
       "dist/**/*",
       "dist-electron/**/*"
